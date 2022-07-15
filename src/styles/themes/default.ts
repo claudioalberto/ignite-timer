@@ -1,4 +1,5 @@
-export const defaultTheme = {
+interface IStringIndex extends Record<string, any> {}
+export const defaultTheme: IStringIndex = {
   white: '#FFF',
   'gray-100': '#E1E1E6',
   'gray-300': '#C4C4CC',
